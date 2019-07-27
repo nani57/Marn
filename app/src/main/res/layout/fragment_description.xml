@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAsh">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:focusable="true"
+        android:hint="A"
+        android:inputType="text"
+        android:layout_marginStart="16dp"
+        android:textColor="#505d67"
+        android:textColorHint="#505d67"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/ll_items_button"
+        android:background="@color/colorAsh" />
+
+    <LinearLayout
+        android:id="@+id/ll_items_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <Button
+            android:id="@+id/send_to_cart_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/create_account_button_background"
+            android:fontFamily="@font/montserrat"
+            android:text="Send to Cart"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

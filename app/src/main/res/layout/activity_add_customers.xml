@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAsh">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="3dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/backButton"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_vertical"
+            android:text="Customers"
+            android:textColor="@color/drawer_bg"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/helpButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="15dp"
+            android:layout_marginStart="12dp"
+            android:src="@drawable/ic_search_customers" />
+
+
+    </RelativeLayout>
+
+    <!--<View-->
+    <!--android:id="@+id/shadow"-->
+    <!--android:layout_below="@id/topBar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="5dp"-->
+    <!--android:background="@drawable/toolbar_shadow" />-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topBar"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:text="Ahmed Salem"
+                android:textColor="@color/setting_text_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/montserrat_med"
+                android:gravity="center_vertical"
+                android:text="0554422667"
+                android:textColor="@color/setting_text_color"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAsh" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:text="Ahmed Salem"
+                android:textColor="@color/setting_text_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/montserrat_med"
+                android:gravity="center_vertical"
+                android:text="0554422667"
+                android:textColor="@color/setting_text_color"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAsh" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:background="@drawable/customer_selected_background">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:text="Ahmed Salem"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/montserrat_med"
+                android:gravity="center_vertical"
+                android:text="0554422667"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:text="Ahmed Salem"
+                android:textColor="@color/setting_text_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/montserrat_med"
+                android:gravity="center_vertical"
+                android:text="0554422667"
+                android:textColor="@color/setting_text_color"
+                android:textSize="16sp" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/ll_items_button"
+        android:background="@color/colorAsh" />
+
+    <LinearLayout
+        android:id="@+id/ll_add_customers_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/iv_more"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_more" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/create_account_button_background"
+            android:fontFamily="@font/montserrat"
+            android:text="New Customer"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

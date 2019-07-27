@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#57c4c1</color>
+    <color name="splash_bg_color">#24262d</color>
+    <color name="login_text_color">#5e646f</color>
+    <color name="drawer_bg">#44515b</color>
+    <color name="colorAsh">#e0e0e0</color>
+    <color name="setting_text_color">#505d67</color>
+    <color name="colorBlack">#000000</color>
+    <color name="selected">#6657c4c1</color>
+    <color name="header_subtitle">#a8b2be</color>
+    <color name="bottom_subtitle">#2e555a</color>
+    <color name="cart_cancel_bg">#e46676</color>
+    <color name="cart_popup_text">#505d67</color>
+    <color name="clear_cart_popup_text">#e80906</color>
+    <color name="view_pgr_bg_edefef">#edefef</color>
+    <color name="line_color_checkout">#d0d4d7</color>
+    <color name="line_color_payment">#9e9e9e</color>
+
+
+</resources>
